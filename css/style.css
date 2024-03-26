@@ -5,6 +5,7 @@
 
 body {
 margin: 0;
+
 }
 
 
@@ -53,7 +54,7 @@ nav ul li a:focus {
 #hero {
     display: flex;
     height: 600px;
-    background-image: url(/assignment-3/images/hands-typing.jpg);
+    background-image: url(/images/hands-typing.jpg);
     background-size: cover;
     background-position: center;
     filter: grayscale(70%);
@@ -89,6 +90,8 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .services article {
@@ -128,12 +131,13 @@ h1 {
 
 
 .work {
-    display: grid;
+    display: flex;
     grid-template-areas: none;
 }
 
 h2 {
     max-width: ;
+    text-align: center;
 }
 
 .gallery {
@@ -143,19 +147,19 @@ h2 {
 
 
 .gallery img:nth-child(1) {
-    grid-column: 3/6;
+    grid-column: 1/6;
 }
 .gallery img:nth-child(2) {
-    grid-column: 3/6;
+    grid-column: ;
 }
 .gallery img:nth-child(3) {
-    grid-column: 2/6;
+    grid-column: ;
 }
 .gallery img:nth-child(4) {
-    grid-column: 2/6;
+    grid-column: ;
 }
 .gallery img:nth-child(5) {
-    grid-column: 2/6;
+    grid-column: ;
 }
 
 
