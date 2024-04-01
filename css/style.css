@@ -57,7 +57,7 @@ nav ul li a:focus {
 #hero {
     display: flex;
     height: 600px;
-    background-image: url(/images/hands-typing.jpg);
+    background-image: url(../images/hands-typing.jpg);
     background-size: cover;
     background-position: center;
     filter: grayscale(70%);
