@@ -16,7 +16,7 @@ header {
     background-color: #000;
     color: #fff; 
     text-align: center;
-    max-width: 940px;
+    
 }
 
 
@@ -57,7 +57,7 @@ nav ul li a:focus {
 #hero {
     display: flex;
     height: 600px;
-    background-image: url(/assignment-3/images/hands-typing.jpg);
+    background-image: url(/images/hands-typing.jpg);
     background-size: cover;
     background-position: center;
     filter: grayscale(70%);
@@ -89,7 +89,8 @@ h1 {
     align-self: end;
 }
 
-#services h2{
+#services h2,
+#work h2{
     max-width: 940px;
     text-align: center;
     font-size: 2em;
@@ -97,8 +98,7 @@ h1 {
 
 #services {
     background-color: #fafafa;
-    max-width: 940px;
-    padding: 3em 3em;
+    padding: 3em 0;
 }
 
 .service-box {
@@ -151,8 +151,9 @@ h1 {
     grid-template-areas: none;
 }
 
-h2 {
-    max-width: 70%;
+
+.work {
+    padding: 0 2em;
     text-align: center;
 }
 
