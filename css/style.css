@@ -55,6 +55,7 @@ nav ul li a:focus {
     display: flex;
     height: 600px;
     background-image: url(/images/hands-typing.jpg);
+    background-image: url(/assignment-3/images/hands-typing.jpg);
     background-size: cover;
     background-position: center;
     filter: grayscale(70%);
